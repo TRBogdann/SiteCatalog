@@ -1,0 +1,129 @@
+
+
+
+.viewContainer
+{
+    width:100vw;
+    height:100vh;
+}
+
+.viewContainer>header
+{
+width:100%;
+height:3rem;
+background:linear-gradient(45deg, rgba(180, 107, 151,0.8), rgba(228, 119, 136,0.8),rgba(255, 145, 110,0.8),rgba(255, 221, 110,0.8));
+}
+
+.returnButton
+{
+    height:3rem;
+}
+.returnButton:hover
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.view {
+    margin-top:7rem;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 30rem));
+    justify-content:space-evenly;
+    
+  }
+.photos
+{
+    display:flex;
+    flex-direction: column;
+    width:30rem;
+    height:25rem;
+    
+}
+.det
+{   
+    font-size:1rem;
+    line-height:1.5rem;
+    display:flex;
+    flex-direction: column;
+    width:30rem;
+    height:25rem;
+}
+.mainImg
+{
+ 
+ width:30rem;
+ height:15rem;
+ object-fit: cover;
+ padding-bottom:2rem;
+
+}
+.imgSwitch
+{
+width:30rem;
+display:flex;
+justify-content:center; 
+}
+.bubble
+{
+    width:2rem;
+    height:2rem;
+    margin-left:0.2rem;
+    margin-right:0.2rem;
+    object-fit:cover;
+    border-radius:50%;
+}
+.bubble:hover
+{
+ background: linear-gradient(white, white) padding-box,
+ linear-gradient(45deg, rgba(180, 107, 151,0.8), rgba(228, 119, 136,0.8),rgba(255, 145, 110,0.8),rgba(255, 221, 110,0.8)) border-box;
+  border-radius: 50em;
+  border: 3px solid transparent;  
+}
+.dimensiune
+{
+    font-size:0.8rem;
+    margin:0.3rem;
+    background-color: rgb(255, 145, 110);
+    border-style:none;
+    border:0.5px solid rgba(48, 38, 7, 0.8);
+    width:9rem;
+    height:2.2rem;
+    border-radius: 10px;
+}
+.dimensiune:hover
+{
+    background-color: rgb(73, 40, 30);
+    font-weight: 520;
+}
+
+.det>ul
+{
+
+    list-style: none;
+}
+.preturi
+{
+width: 30rem;
+}
+.pret
+{
+ margin-top:1rem;
+ margin-left:0.2rem;
+}
+  
+    @media screen and (max-width:480px) {
+        .det{
+            line-height:1.7rem;
+            font-size:1.2rem;
+          }
+        .dimensiune
+        {
+            width:12rem;
+            height:3rem;
+            font-size:1rem;
+        }
+    }
+  @media screen and (max-width:800px) {
+    
+      
+    }

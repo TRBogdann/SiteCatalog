@@ -1,0 +1,48 @@
+.contact
+{
+    width:100%;
+    height:35rem;
+    background:linear-gradient(45deg, rgba(180, 107, 151,0.8), rgba(228, 119, 136,0.8),rgba(255, 145, 110,0.8),rgba(255, 221, 110,0.8));
+}
+
+.dateDeContact
+{
+padding-top:2rem;
+}
+
+.pair
+{   
+    padding:0.3rem;
+    font-size:1.6rem;
+    display:flex;
+    flex-direction: row;
+}
+
+.pair>img
+{
+height:1.6rem;
+}
+
+.containMap
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maps
+{
+width:40rem;
+height:20rem;
+margin-top:2rem;
+border:0;
+border-radius:20px;
+}
+@media screen and (max-width:480px) {
+ .maps
+ {
+    width:30rem;
+    height:15rem;
+ }
+   
+}

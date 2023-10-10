@@ -1,0 +1,50 @@
+@media screen and (min-width:0px) {
+  html{
+      font-size: 12px;;
+  }
+
+  }
+
+  @media screen and (min-width:480px) {
+      html{
+          font-size: 11px;;
+      }
+     
+  }
+@media screen and (min-width:800px) {
+  html{
+      font-size: 13px;;
+  }
+  
+  }
+ 
+  @media screen and (min-width:1000px) {
+      html{
+          font-size: 15px;;
+      }
+    
+  }
+  @media screen and (min-width:1250px) {
+      html{
+          font-size: 15px;;
+      }
+    
+  }
+  
+.tabel {
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 19rem));
+  padding-bottom:3rem;
+  padding-top:3rem;
+  justify-content:space-evenly;
+}
+
+
+
+
+
+
+
+
+
