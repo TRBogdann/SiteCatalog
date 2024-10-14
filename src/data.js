@@ -31,7 +31,7 @@ const data=[
           text:"Greutate aproximativa: 75 kg "
         },
        {
-        text:"Dimensiuni: lungime 196 cm, lățime 40 cm, grosime 4.5 cm"
+        text:"Dimensiuni placa: lungime 196 cm, lățime 40 cm, grosime 4.5 cm"
        } ,
        {
         text:"Armatura: fier PC Q6 mm"
@@ -58,7 +58,7 @@ const data=[
         text:"Greutate aproximativa: 100 kg"
       },
      {
-      text:"Dimensiuni: lungime 240 cm, grosime 15*15 cm"
+      text:"Dimensiuni placa: lungime 240 cm, grosime 15*15 cm"
      } ,
      {
       text:"Armatura: fier 4 bare PC Q8 mm"
@@ -82,13 +82,40 @@ const data=[
     ],
 
 
-
+    [
+      {
+        text:"Greutate aproximativa: 75 kg "
+      },
+     {
+      text:"Dimensiuni placa: lungime 196 cm, lățime 40 cm, grosime 4.5 cm"
+     } ,
+     {
+      text:"Armatura: fier PC Q6 mm"
+    },
+    {
+    text:"Piatra: concasata"
+    } ,
+    {
+      text:"Grupa ciment: I 52,5R"
+    },
+    {
+    text:"Marca beton: B450"
+    } ,
+    {
+      text:"Clasa beton Bc 35"
+      } ,
+      {
+        text:"Clasa de rezistenta a betonului: C 28/35"
+        } 
+    
+    ],
+    
     [
         {
           text:"Greutate aproximativa: 120 kg"
         },
        {
-        text:"Dimensiuni: lungime 280 cm, grosime 15*15 cm"
+        text:"Dimensiuni placa: lungime 280 cm, grosime 15*15 cm"
        } ,
        {
         text:"Armatura: fier 4 bare PC Q8 mm"
@@ -140,9 +167,6 @@ const data=[
       
       ],
 
-
-
-
       [
         {
           text:"Greutate aproximativa: 30/45/55 kg"
@@ -170,7 +194,6 @@ const data=[
           } 
       
       ],
-
 
 
       [
@@ -254,190 +277,249 @@ const data=[
 
     const images=
     [
-        require('./media/obj1_2.jpg'),
-        require('./media/obj2_2.jpg'),
-        require('./media/obj3_1.jpg'),
-        require('./media/obj4_1.jpg'),
-        require('./media/obj5_1.jpg'),
-        require('./media/obj6_4.jpg'),
-        require('./media/obj7_1.jpg'),
-        require('./media/obj8_3.jpg'),
-        require('./media/obj9_1.jpg'),
+      require('./media/new_media/folder_a/A0.jpg'),
+      require('./media/new_media/folder_b/B0.jpg'),
+      require('./media/new_media/folder_c/C0.jpg'),
+      require('./media/new_media/folder_d/D0.jpg'),
+      require('./media/new_media/folder_e/E0.jpg'),
+      require('./media/new_media/folder_f/F0.jpg'),
+      require('./media/new_media/folder_g/G0.jpg'),
+      require('./media/new_media/folder_h/H2.jpg'),
+      require('./media/new_media/folder_i/I0.jpg'),
+      require('./media/new_media/folder_j/J0.jpg')
     ];
 
     const titluri=
     [
-        "Placa gard cu model",
-        "Placa gard simpla",
-        "Stalp gard (gard cu h 160 cm)",
-        "Stalp gard (gard cu h 210 cm)",
-        "Coama gard",
-        "Spalier gard/vie/plantatii",   
-        "Coama temelie",
-        "Tuburi beton",
-        "Capac tuburi beton"
+      "GARD BETON CU COAMA",
+      "GARD BETON FĂRĂ COAMA",
+      "GARD BETON FĂRĂ MODEL",
+      "GARD BETON FĂRĂ COAMĂ + PLACĂ 30CM ",
+      "PLACA GARD",
+      "STALP GARD",
+      "SPALIER BETON VIE/GARD/PLANTATII",
+      "COAME PENTRU TEMELIE",
+      "TUBURI DIN BETON FANTANA/FOSE/PODEȚE",
+      "CAPAC DIN BETON ARMAT PENTRU TUBURI",
     ]
+
 
     const imagePacks=
     [
+      
       [
-        require('./media/obj1_2.jpg'),
-        require('./media/obj1_1.jpg'),
-        require('./media/obj1_3.jpg'),
-        require('./media/obj1_4.jpg'),
-        require('./media/obj1_5.jpg')
+        require('./media/new_media/folder_a/A0.jpg'),
+        require('./media/new_media/folder_a/A1.jpg'),
+        require('./media/new_media/folder_a/A2.jpg'),
+        require('./media/new_media/folder_a/A3.jpg'),
+        require('./media/new_media/folder_a/A4.jpg'),
+        require('./media/new_media/folder_a/A5.jpg'),
+        require('./media/new_media/folder_a/A6.jpg'),
+        require('./media/new_media/folder_a/A7.jpg')
       ],
       
       [
-        require('./media/obj2_2.jpg'),
-        require('./media/obj2_1.jpg'),
-        require('./media/obj2_3.jpg')
+        require('./media/new_media/folder_b/B0.jpg'),
+        require('./media/new_media/folder_b/B1.jpg'),
+        require('./media/new_media/folder_b/B2.jpg'),
+        require('./media/new_media/folder_b/B3.jpg'),
+        require('./media/new_media/folder_b/B4.jpg'),
+        require('./media/new_media/folder_b/B5.jpg'),
+        require('./media/new_media/folder_b/B6.jpg'),
+        require('./media/new_media/folder_b/B7.jpg'),
+        require('./media/new_media/folder_b/B8.jpg'),
+        require('./media/new_media/folder_b/B9.jpg'),
+        require('./media/new_media/folder_b/B10.jpg'),
+        require('./media/new_media/folder_b/B11.jpg'),
+        require('./media/new_media/folder_b/B12.jpg'),
+        require('./media/new_media/folder_b/B13.jpg'),
+        require('./media/new_media/folder_b/B14.jpg'),
+        require('./media/new_media/folder_b/B15.jpg')
       ],
 
       [
-        require('./media/obj3_1.jpg'),
-        require('./media/obj3_2.jpg')  
+        require('./media/new_media/folder_c/C0.jpg'),
+        require('./media/new_media/folder_c/C1.jpg')
       ],
 
       [
-        require('./media/obj4_1.jpg'),
-        require('./media/obj4_2.jpg')  
+        require('./media/new_media/folder_d/D0.jpg'),
+        require('./media/new_media/folder_d/D1.jpg')
       ],
 
       [
-        require('./media/obj5_1.jpg'), 
+        require('./media/new_media/folder_e/E0.jpg'),
+        require('./media/new_media/folder_e/E1.jpg'),
+        require('./media/new_media/folder_e/E2.jpg'),
+        require('./media/new_media/folder_e/E3.jpg'),
+        require('./media/new_media/folder_e/E4.jpg'),
+        require('./media/new_media/folder_e/E5.jpg')
       ],
 
       [
-        require('./media/obj6_4.jpg'),
-        require('./media/obj6_1.jpg'),
-        require('./media/obj6_2.jpg'),
-        require('./media/obj6_3.jpg'),
+        require('./media/new_media/folder_f/F0.jpg'),
       ],
 
       [
-        require('./media/obj7_1.jpg'),
-        require('./media/obj7_2.jpg'),
-        require('./media/obj7_3.jpg'),
+        require('./media/new_media/folder_g/G0.jpg'),
+        require('./media/new_media/folder_g/G1.jpg'),
+        require('./media/new_media/folder_g/G2.jpg'),
+        require('./media/new_media/folder_g/G3.jpg'),
+        require('./media/new_media/folder_g/G4.jpg'),
+        require('./media/new_media/folder_g/G5.jpg'),
       ],
 
       [
-        require('./media/obj8_3.jpg'),
-        require('./media/obj8_1.jpg'),
-        require('./media/obj8_2.jpg'),
+        require('./media/new_media/folder_h/H0.jpg'),
+        require('./media/new_media/folder_h/H1.jpg'),
+        require('./media/new_media/folder_h/H2.jpg'),
+        require('./media/new_media/folder_h/H3.jpg'),
+        require('./media/new_media/folder_h/H4.jpg'),
+        require('./media/new_media/folder_h/H5.jpg'),
       ],
 
       [
-        require('./media/obj9_1.jpg'),
-        require('./media/obj9_2.jpg'),
+        require('./media/new_media/folder_i/I0.jpg'),
+        require('./media/new_media/folder_i/I1.jpg'),
+        require('./media/new_media/folder_i/I2.jpg'),
+        require('./media/new_media/folder_i/I3.jpg'),
       ],
+      
+      [
+        require('./media/new_media/folder_j/J0.jpg'),
+        require('./media/new_media/folder_j/J1.jpg')
+      ]
     ]
 
     const preturi=
     [
       [
         {
-         nume:"Gard model coama H 1.6",
+         nume:"h 1,6m + temelie",
          pret:"190 lei/ml"
+        },
+        {
+         nume:"h 2m + temelie",
+         pret:"240 lei/ml"
         }
       ],
       [
       {
-        nume:"Gard simplu H 1.60M",
-        pret:"160 lei/ml"
+        nume:"h 1,5m + temelie",
+        pret:"170 lei/ml"
+      },
+      {
+        nume:"h 2m + temelie",
+        pret:"220 lei/ml"
       }
      ],
      [
       {
-        nume:"Stalp gard L 2.40M",
+        nume:"h 1,6m + temelie",
+        pret:"170 lei/ml"
+      },
+      {
+        nume:"h 2m + temelie",
+        pret:"210 lei/ml"
+      }
+     ],
+
+     [
+      {
+        nume:"h 1,8M + temelie",
+        pret:"200 lei/ml"
+      }
+     ],
+
+     [
+      {
+        nume:"cu model L 200cm, h 50 cm, grosime 4,5cm",
+        pret:"80 lei/buc"
+      },
+      {
+        nume:"fără model L 196cm, h 40 cm, grosime 4,5cm",
+        pret:"55 lei/buc"
+      }
+     ],
+     [
+      {
+        nume:"L 2,4M, grosime 15x15cm",
         pret:"100 lei/buc"
-      }
+      },
+      {
+       nume:"L 2,8M, grosime 15x15cm",
+        pret:"120 lei/buc"
+      }, 
      ],
      [
       {
-        nume:"Stalp gard L 2.80M",
-        pret:"120lei/buc"
-      }
-     ],
-     [
+        nume:"L 2.10M 8x8",
+        pret:"33 lei/buc"
+      },
       {
-        nume:"Coama gard 2M",
-        pret:"50 lei/buc"
-      }
-     ],
-     [
-      {
-        nume:"Spalieri  L 2.10M 8X8",
+        nume:"L 2.10M 10x10",
         pret:"38 lei/buc"
       },
       {
-        nume:"Spalieri  L 2.10M 10X10",
-        pret:"40 lei/buc"
-      }, 
+        nume:"L 2.40M 10x10",
+        pret:"38 lei/buc"
+      },
       {
-        nume:"Spalieri  L 2.60M 10X10",
+        nume:"L 2.60M 8x8",
+        pret:"40 lei/buc"
+      },
+      {
+        nume:"L 2.60M 10x10",
         pret:"45 lei/buc"
       }
      ],
      [
       {
-        nume:"Coame temelie 22x100",
+        nume:"L 1M, latime temelie 22cm",
         pret:"40 lei/buc"
       },
       {
-        nume:"Coame temelie 26x100",
+        nume:"L 1M, latime temelie 27cm",
         pret:"45 lei/buc"
       }, 
       {
-        nume:"Coame temelie 32x100",
+        nume:"L 1M, latime temelie 32cm",
         pret:"50 lei/buc"
       }
      ],
      [
       {
-        nume:"Tuburi Q1000 H 1M",
-        pret:"350 lei/buc"
+        nume:"Q 100CM H 1M",
+        pret:"400 lei/buc"
       },
       {
-        nume:"Tuburi Q1000 H 50CM",
+        nume:"Q 80CM H 1M",
+        pret:"270 lei/buc"
+      },
+      {
+        nume:"Q 60CM H 1M",
         pret:"200 lei/buc"
       },
       {
-        nume:"Tuburi Q800 H 1M",
-        pret:"200 lei/buc"
-      },
-      {
-        nume:"Tuburi Q800 H 60CM",
-        pret:"130 lei/buc"
-      },
-      {
-        nume:"Tuburi Q800 H 50CM",
-        pret:"110 lei/buc"
-      },
-      {
-        nume:"Tuburi Q600 H 1M",
+        nume:"Q 50CM H 1M",
         pret:"170 lei/buc"
       },
       {
-        nume:"Tuburi Q500 H 1M",
+       nume:"Q 40CM H 1M",
         pret:"150 lei/buc"
       },
-      {
-        nume:"Tuburi Q400 H 1M",
-        pret:"130 lei/buc"
-      }
      ],
      [
       {
-        nume:"Capac Q1000",
+        nume:"Q 100cm, grosime 5-6cm",
         pret:"120 lei/buc"
       },
       {
-        nume:"Capac Q800",
+        nume:"Q 80cm, grosime 5-6cm",
         pret:"100 lei/buc"
       },
       {
-        nume:"Capac Q600",
+        nume:"Q 60cm, grosime 5-6cm",
         pret:"80 lei/buc"
       }
      ]

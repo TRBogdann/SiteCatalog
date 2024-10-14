@@ -1,0 +1,49 @@
+GARD BETON CU COAMA - A
+	h 1,6m + temelie 190 lei/ml
+	h 2m + temelie 240 lei/ml
+	
+GARD BETON FĂRĂ COAMA - B
+	h 1,5m + temelie 170 lei/ml
+	h 2m + temelie 220 lei/ml
+
+GARD BETON FĂRĂ MODEL - C
+	h 1,6m + temelie 170 lei/ml
+	h 2m + temelie 210 lei/ml
+
+GARD BETON FĂRĂ COAMĂ + PLACĂ 30CM - D
+	h 1,8M + temelie 200 lei/ml
+
+PLACA GARD - E
+	cu model L 200cm, h 50 cm, grosime 4,5cm - 80lei/buc
+	fără model L 196cm, h 40 cm, grosime 4,5cm - 55lei/buc
+
+STALP GARD - F
+	L 2,4M, grosime 15x15cm - pret 100 lei/buc
+	L 2,8M, grosime 15x15cm - pret 120 lei/buc
+
+SPALIER BETON VIE/GARD/PLANTATII - G
+	L 2.10M 8x8 - 33 lei/buc
+	L 2.10M 10x10 - 38 lei/buc
+	L 2,40M 8x8 - 38 lei/buc
+	L 2,60M 8x8 - 40 lei/buc
+	L 2.60M 10x10 - 45 lei/buc
+
+
+COAME PENTRU TEMELIE - H
+	L 1M, latime temelie 22cm - 40 lei/buc
+	L 1M, latime temelie 27cm - 45 lei/buc
+	L 1M, latime temelie 32cm - 50 lei/buc
+
+
+TUBURI DIN BETON FANTANA/FOSE/PODEȚE - I
+	Q 100CM, H 1M - 400 lei/buc	
+	Q 80CM, H 1M - 270 lei/buc	
+	Q 60CM, H 1M - 200 lei/buc
+	Q 50CM, H 1M - 170 lei/buc
+	Q 40CM, H 1M - 150 lei/buc
+
+
+CAPAC DIN BETON ARMAT PENTRU TUBURI - J
+	Q 100cm, grosime 5-6cm - 120lei/buc
+ 	Q 80cm, grosime 5-6cm - 100lei/buc
+ 	Q 60cm, grosime 5-6cm - 80lei/buc

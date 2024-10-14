@@ -34,6 +34,9 @@ function Contact()
         <div className="containMap">
         <iframe className="maps" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2824.9197941570283!2d24.23237517516557!3d44.924966569256995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474d19ee8d5b8e37%3A0xf902e25574f4579c!2sSC%20PITIGOI%20SRL!5e0!3m2!1sro!2sro!4v1695998326435!5m2!1sro!2sro" width="600" height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no<li>referrer<li>when<li>downgrade"></iframe>
         </div>
+        <div className="logoPhoto">
+        </div>
+
         </div>
         </div>
     )

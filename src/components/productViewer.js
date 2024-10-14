@@ -35,6 +35,7 @@ function Viewer(props)
                 return <button className="dimensiune" onClick={()=>{setPret(price.pret)}}>{price.nume}</button>
             })}
          <div className="pret">Pret: {pret}</div>
+         <div style={{color:"red", fontWeight:500}}>*Pretul contine TVA</div>
           </div>
         </div>
         </div>
