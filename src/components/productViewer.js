@@ -6,13 +6,44 @@ function Viewer(props)
 {
     const [pret,setPret]=useState(props.prices[0].pret);
     const [mainsrc,setMainsrc]=useState(props.pack[0]);
+    const [currentIndex,setIndex]=useState(0);
+    const str1 = "<";
+    const str2 = ">";
     return(
         <div className="viewContainer">
         <header>
-        <img class="returnButton" onClick={()=>{window.location="/"}} alt="img" src={returnBt}></img>
+        <img className="returnButton" onClick={()=>{window.location="/"}} alt="img" src={returnBt}></img>
         </header>
         <div className="view">
         <div className="photos">
+        <div className="buttonsBar">
+        <div className="arrowLeft" onClick={()=>{
+            console.log(props.pack[currentIndex]);
+            if(currentIndex===0)
+            {
+                setIndex(props.pack.length-1);
+
+            }
+            else
+                setIndex(currentIndex-1);
+
+                setMainsrc(props.pack[currentIndex]);
+        
+        }}>{str1}</div>
+        <div className="arrowRight" onClick={()=>{
+            console.log(props.pack[currentIndex]);
+            if(currentIndex===props.pack.length-1)
+            {
+                setIndex(0);
+
+            }
+            else
+                setIndex(currentIndex+1);
+
+                setMainsrc(props.pack[currentIndex]);
+        
+        }}>{str2}</div>
+        </div>
         <img className="mainImg" alt="img" src={mainsrc}>
         </img>
         <div className="imgSwitch">
